@@ -1,0 +1,2639 @@
+{
+  "version": "v1",
+  "dataItems": [
+    {
+      "data": {
+        "Average": 816,
+        "Perc50": 816,
+        "Perc90": 816,
+        "Perc95": 816,
+        "Perc99": 816
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.47108274200000044,
+        "Perc50": 0.325219573400251,
+        "Perc90": 0.8,
+        "Perc95": 1.406060606060606,
+        "Perc99": 4.48
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.5330496359999997,
+        "Perc50": 0.34388489208633094,
+        "Perc90": 0.9128205128205129,
+        "Perc95": 1.425641025641026,
+        "Perc99": 4.363636363636364
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/500Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.703635249000002,
+        "Perc50": 1.8,
+        "Perc90": 4.28169014084507,
+        "Perc95": 7.098591549295775,
+        "Perc99": 25.846153846153847
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 501.64033104399954,
+        "Perc50": 491.83770883054893,
+        "Perc90": 1070.8496732026144,
+        "Perc95": 1175.4248366013073,
+        "Perc99": 1259.0849673202613
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 461,
+        "Perc90": 539,
+        "Perc95": 539,
+        "Perc99": 539
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 845.0690802109997,
+        "Perc50": 856.1220043572985,
+        "Perc90": 1906.938775510204,
+        "Perc95": 2233.469387755102,
+        "Perc99": 2494.6938775510207
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.7052312610000007,
+        "Perc50": 0.6059880239520958,
+        "Perc90": 0.7976047904191617,
+        "Perc95": 2.084848484848485,
+        "Perc99": 5.92
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8102058020000011,
+        "Perc50": 0.6257336343115124,
+        "Perc90": 1.0604651162790697,
+        "Perc95": 2.210909090909091,
+        "Perc99": 5.12
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 3.343682254999998,
+        "Perc50": 3.111111111111111,
+        "Perc90": 4.3478260869565215,
+        "Perc95": 9.333333333333334,
+        "Perc99": 16
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingBasic/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 400,
+        "Perc50": 400,
+        "Perc90": 400,
+        "Perc95": 400,
+        "Perc99": 400
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.9220027450000017,
+        "Perc50": 3.086350974930362,
+        "Perc90": 3.977715877437326,
+        "Perc95": 7.2,
+        "Perc99": 14
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 309.83050510749996,
+        "Perc50": 308.14814814814815,
+        "Perc90": 573.3333333333333,
+        "Perc95": 606.6666666666667,
+        "Perc99": 633.3333333333333
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.7286290575000006,
+        "Perc50": 0.6292307692307693,
+        "Perc90": 1.393939393939394,
+        "Perc95": 1.8285714285714285,
+        "Perc99": 3.047619047619048
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/500Nodes/sched-1",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.3449266892230574,
+        "Perc50": 0.2670781893004115,
+        "Perc90": 0.3984362139917696,
+        "Perc95": 0.8763636363636331,
+        "Perc99": 2.8019999999999983
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/500Nodes/sched-1",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 199.2,
+        "Perc50": 203,
+        "Perc90": 241,
+        "Perc95": 241,
+        "Perc99": 241
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 6.598410419000007,
+        "Perc50": 6.1734357848518115,
+        "Perc90": 7.929747530186607,
+        "Perc95": 17.523809523809526,
+        "Perc99": 37.333333333333336
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 2309.8689425540024,
+        "Perc50": 2160,
+        "Perc90": 4495.609756097561,
+        "Perc95": 4807.804878048782,
+        "Perc99": 5057.5609756097565
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.019283049,
+        "Perc50": 0.6570694087403599,
+        "Perc90": 1.3987730061349695,
+        "Perc95": 2.4000000000000004,
+        "Perc99": 10.311111111111112
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/5000Nodes/sched-1",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.757047396,
+        "Perc50": 0.613903743315508,
+        "Perc90": 0.7850267379679146,
+        "Perc95": 1.431578947368421,
+        "Perc99": 5.807407407407407
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAntiAffinity/5000Nodes/sched-1",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 790,
+        "Perc50": 790,
+        "Perc90": 790,
+        "Perc95": 790,
+        "Perc99": 790
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.7012732639999992,
+        "Perc50": 1.9940357852882704,
+        "Perc90": 4.0588235294117645,
+        "Perc95": 7,
+        "Perc99": 20
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 530.9226137569998,
+        "Perc50": 525.8981233243968,
+        "Perc90": 1105.6130790190734,
+        "Perc95": 1192.8065395095368,
+        "Perc99": 1262.5613079019074
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.5388593019999991,
+        "Perc50": 0.34388489208633094,
+        "Perc90": 0.8,
+        "Perc95": 1.3970149253731345,
+        "Perc99": 4.072727272727273
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.49828402300000024,
+        "Perc50": 0.33908205841446454,
+        "Perc90": 0.7851063829787235,
+        "Perc95": 1.3375000000000001,
+        "Perc99": 3.1200000000000006
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/500Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 483.5,
+        "Perc50": 438,
+        "Perc90": 529,
+        "Perc95": 529,
+        "Perc99": 529
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.9477135819999987,
+        "Perc50": 0.6547770700636942,
+        "Perc90": 1.536,
+        "Perc95": 2.8549019607843142,
+        "Perc99": 9.600000000000001
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8462167100000001,
+        "Perc50": 0.6339181286549708,
+        "Perc90": 1.420689655172414,
+        "Perc95": 2.4705882352941178,
+        "Perc99": 5.12
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 3.872862618000005,
+        "Perc50": 3.1363636363636367,
+        "Perc90": 6.424242424242425,
+        "Perc95": 12.625,
+        "Perc99": 25.454545454545457
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 988.2463298320002,
+        "Perc50": 991.502590673575,
+        "Perc90": 2167.3619631901843,
+        "Perc95": 2363.680981595092,
+        "Perc99": 2520.7361963190183
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingSecrets/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 316.5,
+        "Perc50": 161,
+        "Perc90": 472,
+        "Perc95": 472,
+        "Perc99": 472
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.5243880900000004,
+        "Perc50": 1.2789403973509934,
+        "Perc90": 2.8416,
+        "Perc95": 4.528301886792453,
+        "Perc99": 10.514285714285716
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.5960332729999991,
+        "Perc50": 0.34326647564469914,
+        "Perc90": 1.381132075471698,
+        "Perc95": 2.1793103448275866,
+        "Perc99": 4.266666666666667
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/500Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 4.749060732000001,
+        "Perc50": 3.3003901170351106,
+        "Perc90": 9.600000000000001,
+        "Perc95": 14.305882352941177,
+        "Perc99": 27.73333333333333
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1189.5328717419995,
+        "Perc50": 1211.2280701754385,
+        "Perc90": 2276.186252771619,
+        "Perc95": 2418.0931263858092,
+        "Perc99": 2531.6186252771618
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 137.85714285714286,
+        "Perc50": 152,
+        "Perc90": 155,
+        "Perc95": 155,
+        "Perc99": 155
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.435848576000001,
+        "Perc50": 2.4639269406392694,
+        "Perc90": 3.194520547945206,
+        "Perc95": 6.817391304347827,
+        "Perc99": 12.382608695652175
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.0016995769999992,
+        "Perc50": 0.6290950744558992,
+        "Perc90": 1.4967741935483871,
+        "Perc95": 3.8243902439024393,
+        "Perc99": 9.386666666666668
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 11.25081092000002,
+        "Perc50": 12.366132723112127,
+        "Perc90": 16.8,
+        "Perc95": 30.133333333333333,
+        "Perc99": 58.4
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 3508.9839371940006,
+        "Perc50": 3530.8352144469527,
+        "Perc90": 7964.444444444444,
+        "Perc95": 9102.222222222223,
+        "Perc99": 10012.444444444443
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingInTreePVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 302,
+        "Perc50": 370,
+        "Perc90": 406,
+        "Perc95": 406,
+        "Perc99": 406
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 5.434405805000003,
+        "Perc50": 3.464128843338214,
+        "Perc90": 12.121212121212121,
+        "Perc95": 16.64,
+        "Perc99": 29.44
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1385.1376332479979,
+        "Perc50": 1406.8468468468468,
+        "Perc90": 2329.3693693693695,
+        "Perc95": 2444.6846846846847,
+        "Perc99": 2536.936936936937
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.7947087069999985,
+        "Perc50": 1.3121638924455825,
+        "Perc90": 4.064,
+        "Perc95": 5.664000000000001,
+        "Perc99": 10.933333333333334
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.6750939120000002,
+        "Perc50": 0.3712328767123288,
+        "Perc90": 1.4371681415929205,
+        "Perc95": 2.357894736842105,
+        "Perc99": 5.2
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/500Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 128,
+        "Perc50": 142,
+        "Perc90": 147,
+        "Perc95": 147,
+        "Perc99": 147
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 12.039779567999997,
+        "Perc50": 12.544600938967136,
+        "Perc90": 22.91891891891892,
+        "Perc95": 36.654545454545456,
+        "Perc99": 59.92727272727273
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 3738.569902221999,
+        "Perc50": 3787.8177458033574,
+        "Perc90": 8430.812720848056,
+        "Perc95": 9335.406360424027,
+        "Perc99": 10059.081272084806
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.6838042479999986,
+        "Perc50": 2.5142857142857147,
+        "Perc90": 4.668852459016394,
+        "Perc95": 8.378181818181819,
+        "Perc99": 14.933333333333334
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.0187647640000004,
+        "Perc50": 0.6418379685610641,
+        "Perc90": 1.9409836065573771,
+        "Perc95": 3.388235294117647,
+        "Perc99": 9.411764705882353
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingMigratedInTreePVs/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 387.5,
+        "Perc50": 219,
+        "Perc90": 556,
+        "Perc95": 556,
+        "Perc99": 556
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 4.452609400000009,
+        "Perc50": 3.297016861219196,
+        "Perc90": 9.505882352941176,
+        "Perc95": 14.211764705882354,
+        "Perc99": 27.586206896551722
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1026.311640371,
+        "Perc50": 1038.9610389610389,
+        "Perc90": 2082.3880597014927,
+        "Perc95": 2321.194029850746,
+        "Perc99": 2512.2388059701493
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.1465453060000006,
+        "Perc50": 0.6989536621823618,
+        "Perc90": 2.5572649572649575,
+        "Perc95": 3.4232558139534883,
+        "Perc99": 6.4
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.6122871669999997,
+        "Perc50": 0.35220700152207,
+        "Perc90": 1.3849462365591398,
+        "Perc95": 2.2779661016949153,
+        "Perc99": 4.945454545454545
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/500Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 145.66666666666666,
+        "Perc50": 154,
+        "Perc90": 173,
+        "Perc95": 173,
+        "Perc99": 173
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 10.753412090000014,
+        "Perc50": 10.835443037974684,
+        "Perc90": 15.898734177215191,
+        "Perc95": 27.200000000000003,
+        "Perc99": 56.275862068965516
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 3269.4990368860017,
+        "Perc50": 3359.386973180077,
+        "Perc90": 6608.794326241135,
+        "Perc95": 8424.397163120566,
+        "Perc99": 9876.879432624115
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.8810466440000013,
+        "Perc50": 1.3167958656330752,
+        "Perc90": 3.00979020979021,
+        "Perc95": 5.12,
+        "Perc99": 12.463157894736842
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.9945747850000014,
+        "Perc50": 0.6496878901373283,
+        "Perc90": 1.4947368421052631,
+        "Perc95": 2.8444444444444446,
+        "Perc99": 8.32
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingCSIPVs/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 480,
+        "Perc90": 520,
+        "Perc95": 520,
+        "Perc99": 520
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 3.269873584999997,
+        "Perc50": 3.0994285714285716,
+        "Perc90": 4.428571428571429,
+        "Perc95": 8,
+        "Perc99": 15.804878048780488
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 791.3505059640003,
+        "Perc50": 767.1131639722863,
+        "Perc90": 1723.3986928104575,
+        "Perc95": 2141.699346405229,
+        "Perc99": 2476.3398692810456
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.40352510699999994,
+        "Perc50": 0.31554524361948955,
+        "Perc90": 0.5945945945945946,
+        "Perc95": 1.0461538461538462,
+        "Perc99": 2.9000000000000004
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/500Nodes/sched-1",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.4622774090000002,
+        "Perc50": 0.3283697047496791,
+        "Perc90": 0.712258064516129,
+        "Perc95": 1.1282051282051282,
+        "Perc99": 3.111111111111111
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/500Nodes/sched-1",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 100,
+        "Perc50": 110,
+        "Perc90": 122,
+        "Perc95": 123,
+        "Perc99": 123
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 11.758492168999984,
+        "Perc50": 12.273972602739727,
+        "Perc90": 15.926940639269409,
+        "Perc95": 28.679245283018872,
+        "Perc99": 58.51428571428571
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 4308.132013103005,
+        "Perc50": 4233.2026143790845,
+        "Perc90": 8940.507614213198,
+        "Perc95": 9590.2538071066,
+        "Perc99": 10110.05076142132
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8104202360000011,
+        "Perc50": 0.648447204968944,
+        "Perc90": 1.3066666666666666,
+        "Perc95": 1.5733333333333333,
+        "Perc99": 6.9818181818181815
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/5000Nodes/sched-1",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.078104746,
+        "Perc50": 0.7169572107765452,
+        "Perc90": 1.4853503184713377,
+        "Perc95": 2.0210526315789474,
+        "Perc99": 10.573913043478262
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPodAffinity/5000Nodes/sched-1",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 383,
+        "Perc90": 617,
+        "Perc95": 617,
+        "Perc99": 617
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 3.7701646340000003,
+        "Perc50": 3.0392422192151556,
+        "Perc90": 6.093023255813954,
+        "Perc95": 10.4,
+        "Perc99": 41.84615384615385
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 874.3154750080005,
+        "Perc50": 893.2436069986542,
+        "Perc90": 1237.7927321668908,
+        "Perc95": 1305.0980392156864,
+        "Perc99": 2309.0196078431372
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.520034833,
+        "Perc50": 0.3277139208173691,
+        "Perc90": 0.7774193548387097,
+        "Perc95": 1.4490566037735853,
+        "Perc99": 5.6000000000000005
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/500Nodes/sched-1",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.6125002049999994,
+        "Perc50": 0.3980198019801981,
+        "Perc90": 0.9706666666666668,
+        "Perc95": 1.5040000000000002,
+        "Perc99": 5.866666666666668
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/500Nodes/sched-1",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 200,
+        "Perc50": 194,
+        "Perc90": 271,
+        "Perc95": 271,
+        "Perc99": 271
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 7.340309924000007,
+        "Perc50": 6.2883295194508015,
+        "Perc90": 11.52542372881356,
+        "Perc95": 21.44,
+        "Perc99": 46.93333333333334
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 2078.209381898,
+        "Perc50": 1993.312693498452,
+        "Perc90": 4402.913165266106,
+        "Perc95": 4761.456582633054,
+        "Perc99": 5048.29131652661
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.9737316049999997,
+        "Perc50": 0.6531645569620254,
+        "Perc90": 1.43768115942029,
+        "Perc95": 3.2,
+        "Perc99": 10.105263157894736
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/5000Nodes/sched-1",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.1698560969999994,
+        "Perc50": 0.9416342412451363,
+        "Perc90": 1.5642023346303504,
+        "Perc95": 3.466666666666667,
+        "Perc99": 9.846153846153847
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAffinity/5000Nodes/sched-1",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 435,
+        "Perc90": 565,
+        "Perc95": 565,
+        "Perc99": 565
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 3.242695114000004,
+        "Perc50": 3.0604651162790697,
+        "Perc90": 3.990697674418605,
+        "Perc95": 8.952380952380953,
+        "Perc99": 22
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 727.0544610339998,
+        "Perc50": 702.6382978723404,
+        "Perc90": 1247.3191489361702,
+        "Perc95": 1717.8947368421054,
+        "Perc99": 2391.578947368421
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/500Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.4114647389999996,
+        "Perc50": 0.31438515081206503,
+        "Perc90": 0.6032786885245902,
+        "Perc95": 1.3714285714285717,
+        "Perc99": 3.2
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/500Nodes/sched-1",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.49529758199999996,
+        "Perc50": 0.34245014245014244,
+        "Perc90": 0.7649769585253456,
+        "Perc95": 1.3391304347826087,
+        "Perc99": 3.2
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/500Nodes/sched-1",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 142.85714285714286,
+        "Perc50": 146,
+        "Perc90": 155,
+        "Perc95": 155,
+        "Perc99": 155
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 9.75368795699998,
+        "Perc50": 9.46268656716418,
+        "Perc90": 15.432835820895523,
+        "Perc95": 20.8,
+        "Perc99": 51.199999999999996
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 3400.8702309080013,
+        "Perc50": 3378.9420654911837,
+        "Perc90": 8013.913043478262,
+        "Perc95": 9126.956521739132,
+        "Perc99": 10017.391304347826
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/5000Nodes/sched-1"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8080336759999993,
+        "Perc50": 0.6328288707799767,
+        "Perc90": 1.1381443298969074,
+        "Perc95": 1.5505154639175258,
+        "Perc99": 6.222222222222222
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/5000Nodes/sched-1",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.0456282300000017,
+        "Perc50": 0.6824858757062148,
+        "Perc90": 1.4508474576271189,
+        "Perc95": 2.2,
+        "Perc99": 10.4
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredPodAntiAffinity/5000Nodes/sched-1",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 229,
+        "Perc90": 771,
+        "Perc95": 771,
+        "Perc99": 771
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 4.820885119999997,
+        "Perc50": 3.08411214953271,
+        "Perc90": 12.7816091954023,
+        "Perc95": 15.080459770114944,
+        "Perc99": 27.034482758620694
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 632.0187012489998,
+        "Perc50": 513.5802469135803,
+        "Perc90": 1611.851851851852,
+        "Perc95": 2085.9259259259256,
+        "Perc99": 2465.185185185185
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.7898216590000002,
+        "Perc50": 0.4205607476635514,
+        "Perc90": 1.980952380952381,
+        "Perc95": 2.7428571428571433,
+        "Perc99": 5.082352941176471
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8593894390000014,
+        "Perc50": 0.5016129032258064,
+        "Perc90": 2.1426086956521737,
+        "Perc95": 2.8382608695652176,
+        "Perc99": 5.236363636363636
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/500Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 496.5,
+        "Perc50": 461,
+        "Perc90": 532,
+        "Perc95": 532,
+        "Perc99": 532
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 3.854140487999998,
+        "Perc50": 3.1363636363636367,
+        "Perc90": 6.500000000000001,
+        "Perc95": 12.222222222222223,
+        "Perc99": 22.857142857142858
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 948.1262357909995,
+        "Perc50": 948.2027649769585,
+        "Perc90": 2094.5454545454545,
+        "Perc95": 2327.272727272727,
+        "Perc99": 2513.4545454545455
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8894636120000008,
+        "Perc50": 0.6379928315412187,
+        "Perc90": 1.4024691358024692,
+        "Perc95": 2.7428571428571433,
+        "Perc99": 6.4
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8749046390000018,
+        "Perc50": 0.6442002442002442,
+        "Perc90": 1.5623529411764707,
+        "Perc95": 2.5684210526315794,
+        "Perc99": 5.2
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingNodeAffinity/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 352,
+        "Perc90": 648,
+        "Perc95": 648,
+        "Perc99": 648
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.47059285100000003,
+        "Perc50": 0.33244680851063835,
+        "Perc90": 0.8,
+        "Perc95": 1.425,
+        "Perc99": 3.2
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.4798386719999996,
+        "Perc50": 0.3420454545454546,
+        "Perc90": 0.7646511627906977,
+        "Perc95": 1.2000000000000002,
+        "Perc99": 3.6000000000000005
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/500Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.8161683549999994,
+        "Perc50": 2.4953445065176907,
+        "Perc90": 3.985102420856611,
+        "Perc95": 6.875,
+        "Perc99": 20.363636363636363
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 632.3487617000006,
+        "Perc50": 631.6339869281046,
+        "Perc90": 1149.918699186992,
+        "Perc95": 1214.9593495934957,
+        "Perc99": 1266.9918699186992
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 236.625,
+        "Perc50": 243,
+        "Perc90": 258,
+        "Perc95": 258,
+        "Perc99": 258
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 6.311171080999998,
+        "Perc50": 6.147232670607201,
+        "Perc90": 7.866738312735089,
+        "Perc95": 17.185185185185187,
+        "Perc99": 38.66666666666667
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 4086.461320093502,
+        "Perc50": 4088.2424242424245,
+        "Perc90": 8844.904632152588,
+        "Perc95": 9542.452316076295,
+        "Perc99": 10100.49046321526
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8516400795000003,
+        "Perc50": 0.6751031636863825,
+        "Perc90": 1.5007594936708863,
+        "Perc95": 2.3221238938053097,
+        "Perc99": 5.942857142857143
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.9028438595000012,
+        "Perc50": 0.6237136465324385,
+        "Perc90": 0.8880733944954129,
+        "Perc95": 1.808695652173913,
+        "Perc99": 8.96
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/TopologySpreading/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 272,
+        "Perc90": 728,
+        "Perc95": 728,
+        "Perc99": 728
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.39439014999999966,
+        "Perc50": 0.3177725118483412,
+        "Perc90": 0.6617283950617284,
+        "Perc95": 1.2512820512820513,
+        "Perc99": 2.8266666666666667
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.5030623459999998,
+        "Perc50": 0.35455950540958275,
+        "Perc90": 0.7653429602888088,
+        "Perc95": 1.2333333333333332,
+        "Perc99": 3.04
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/500Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.719490868999998,
+        "Perc50": 2.5406360424028267,
+        "Perc90": 3.954063604240283,
+        "Perc95": 7.083333333333334,
+        "Perc99": 15.25
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 575.3016401199993,
+        "Perc50": 558.659217877095,
+        "Perc90": 1123.520782396088,
+        "Perc95": 1201.7603911980439,
+        "Perc99": 1264.3520782396088
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 333.3333333333333,
+        "Perc50": 349,
+        "Perc90": 380,
+        "Perc95": 380,
+        "Perc99": 380
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 4.891948822499997,
+        "Perc50": 3.8726591760299627,
+        "Perc90": 7.646326276463263,
+        "Perc95": 13.043478260869566,
+        "Perc99": 28.6
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 2826.067352666,
+        "Perc50": 2796.3903462749213,
+        "Perc90": 4945.3934942287515,
+        "Perc95": 6447.407407407408,
+        "Perc99": 9481.481481481482
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.7509707535,
+        "Perc50": 0.6243517474633596,
+        "Perc90": 0.9423728813559322,
+        "Perc95": 1.7655172413793105,
+        "Perc99": 6.128813559322034
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8389920250000001,
+        "Perc50": 0.6424242424242426,
+        "Perc90": 1.289795918367347,
+        "Perc95": 1.7095890410958905,
+        "Perc99": 4.736000000000001
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreferredTopologySpreading/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 488,
+        "Perc50": 15,
+        "Perc90": 961,
+        "Perc95": 961,
+        "Perc99": 961
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/500Nodes/namespace-7"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.33279326428975614,
+        "Perc50": 0.3111615833874108,
+        "Perc90": 0.4841509433962263,
+        "Perc95": 0.8476923076923063,
+        "Perc99": 1.5726153846153839
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/500Nodes/namespace-7",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.4388755435520366,
+        "Perc50": 0.33343396226415095,
+        "Perc90": 0.7226666666666668,
+        "Perc95": 1.0262068965517233,
+        "Perc99": 2.178782608695648
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/500Nodes/namespace-7",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.3358308592425123,
+        "Perc50": 1.8144567219152854,
+        "Perc90": 3.7883392226148414,
+        "Perc95": 5.312643678160918,
+        "Perc99": 11.787692307692291
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/500Nodes/namespace-7"
+      }
+    },
+    {
+      "data": {
+        "Average": 1055.0448746291688,
+        "Perc50": 1050.385164051355,
+        "Perc90": 2202.2875197472354,
+        "Perc95": 2381.1437598736175,
+        "Perc99": 2524.2287519747233
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/500Nodes/namespace-7"
+      }
+    },
+    {
+      "data": {
+        "Average": 250,
+        "Perc50": 243,
+        "Perc90": 362,
+        "Perc95": 362,
+        "Perc99": 362
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/5000Nodes/namespace-7"
+      }
+    },
+    {
+      "data": {
+        "Average": 6.422203549168272,
+        "Perc50": 5.995113538373096,
+        "Perc90": 8.777002053388093,
+        "Perc95": 16.088888888888874,
+        "Perc99": 30.703049095607202
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/5000Nodes/namespace-7"
+      }
+    },
+    {
+      "data": {
+        "Average": 21107.288193631506,
+        "Perc50": 21180.57267759563,
+        "Perc90": 37004.114535519126,
+        "Perc95": 38982.057267759556,
+        "Perc99": 40564.41145355191
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/5000Nodes/namespace-7"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.7691145751952033,
+        "Perc50": 0.6453699847285854,
+        "Perc90": 1.3201386481802428,
+        "Perc95": 1.7764161849710967,
+        "Perc99": 4.447999999999978
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/5000Nodes/namespace-7",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.0060719331220986,
+        "Perc50": 0.6751245330012454,
+        "Perc90": 1.4616765819361819,
+        "Perc95": 2.4497391304347804,
+        "Perc99": 10.024218579234944
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/MixedSchedulingBasePod/5000Nodes/namespace-7",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 83.33333333333333,
+        "Perc50": 1,
+        "Perc90": 475,
+        "Perc95": 475,
+        "Perc99": 475
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/PreemptionBasic/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 22.56752854999999,
+        "Perc50": 14.912891986062718,
+        "Perc90": 56,
+        "Perc95": 67.62264150943396,
+        "Perc99": 115.9245283018868
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreemptionBasic/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 6575.481659961996,
+        "Perc50": 7669.718875502008,
+        "Perc90": 9725.9437751004,
+        "Perc95": 9982.971887550202,
+        "Perc99": 10188.594377510039
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreemptionBasic/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8473014719999986,
+        "Perc50": 0.8,
+        "Perc90": 2.150537634408602,
+        "Perc95": 3.010752688172043,
+        "Perc99": 6.012121212121213
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreemptionBasic/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 56,
+        "Perc50": 1,
+        "Perc90": 441,
+        "Perc95": 441,
+        "Perc99": 441
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/PreemptionPVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 8.788325855000002,
+        "Perc50": 8.157635467980295,
+        "Perc90": 16.438356164383563,
+        "Perc95": 27.397260273972602,
+        "Perc99": 57.333333333333336
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreemptionPVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 8167.645357322005,
+        "Perc50": 7659.354838709678,
+        "Perc90": 9723.870967741934,
+        "Perc95": 9981.935483870968,
+        "Perc99": 10188.387096774193
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreemptionPVs/500Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.522305004999997,
+        "Perc50": 0.8727272727272727,
+        "Perc90": 3.1522388059701494,
+        "Perc95": 5.130158730158731,
+        "Perc99": 11.452631578947368
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/PreemptionPVs/500Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 283,
+        "Perc90": 717,
+        "Perc95": 717,
+        "Perc99": 717
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/500Nodes/200InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.2166262183333347,
+        "Perc50": 1.774193548387097,
+        "Perc90": 3.7086834733893554,
+        "Perc95": 4.592592592592593,
+        "Perc99": 9.230769230769232
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/500Nodes/200InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1096.6533985080002,
+        "Perc50": 1059.397116644823,
+        "Perc90": 2019.915611814346,
+        "Perc95": 2289.957805907173,
+        "Perc99": 2505.9915611814345
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/500Nodes/200InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.482849136666666,
+        "Perc50": 0.3429940119760479,
+        "Perc90": 1.03206106870229,
+        "Perc95": 1.3984732824427482,
+        "Perc99": 3.2
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/500Nodes/200InitPods/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.4392816769999999,
+        "Perc50": 0.35600624024961,
+        "Perc90": 0.7488215488215488,
+        "Perc95": 0.9882352941176472,
+        "Perc99": 1.7454545454545454
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/500Nodes/200InitPods/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 531.6666666666666,
+        "Perc50": 589,
+        "Perc90": 613,
+        "Perc95": 613,
+        "Perc99": 613
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/200InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 4.016269899615384,
+        "Perc50": 3.191821732138755,
+        "Perc90": 7.479674796747967,
+        "Perc95": 12.416666666666666,
+        "Perc99": 25.599999999999998
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/200InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 8423.955899259578,
+        "Perc50": 8358.718861209965,
+        "Perc90": 16419.730372720063,
+        "Perc95": 18449.86518636003,
+        "Perc99": 20073.973037272004
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/200InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.0399021198076885,
+        "Perc50": 0.6308686288585786,
+        "Perc90": 1.4323232323232324,
+        "Perc95": 4.087591240875913,
+        "Perc99": 11.684848484848485
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/200InitPods/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.8208183532000014,
+        "Perc50": 0.6473410833539451,
+        "Perc90": 1.4271012006861066,
+        "Perc95": 2.203039513677812,
+        "Perc99": 3.175683890577508
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/200InitPods/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 555.5555555555555,
+        "Perc50": 577,
+        "Perc90": 612,
+        "Perc95": 612,
+        "Perc99": 612
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/2000InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 7.118339942285723,
+        "Perc50": 3.5369393139841687,
+        "Perc90": 14.891434806328423,
+        "Perc95": 21.585454545454546,
+        "Perc99": 51.828220858895705
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/2000InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 42317.696405736744,
+        "Perc50": 51233.75486964339,
+        "Perc90": 75782.75097392868,
+        "Perc95": 78851.37548696435,
+        "Perc99": 81306.27509739286
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/2000InitPods/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 2.8822598337142726,
+        "Perc50": 0.7078135868305124,
+        "Perc90": 10.251851851851852,
+        "Perc95": 11.847293447293447,
+        "Perc99": 26.666666666666668
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/2000InitPods/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.7847286229999997,
+        "Perc50": 0.6307869836141242,
+        "Perc90": 1.2227848101265824,
+        "Perc95": 2.103426791277258,
+        "Perc99": 3.100311526479751
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/Unschedulable/5000Nodes/2000InitPods/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 500,
+        "Perc50": 453,
+        "Perc90": 547,
+        "Perc95": 547,
+        "Perc99": 547
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/1000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 3.373291501498498,
+        "Perc50": 3.137931034482759,
+        "Perc90": 5.871604938271603,
+        "Perc95": 9.208695652173901,
+        "Perc99": 17.584000000000017
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/1000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 806.6618954400003,
+        "Perc50": 796.0680529300568,
+        "Perc90": 1280,
+        "Perc95": 1920,
+        "Perc99": 2432.0000000000005
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/1000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.6482654205794204,
+        "Perc50": 0.5132437619961613,
+        "Perc90": 1.056190476190476,
+        "Perc95": 1.5328571428571423,
+        "Perc99": 4.920615384615387
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/1000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.7892147249999993,
+        "Perc50": 0.6478314745972739,
+        "Perc90": 1.4148760330578514,
+        "Perc95": 2.251851851851852,
+        "Perc99": 4.906666666666667
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/1000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 333.3333333333333,
+        "Perc50": 203,
+        "Perc90": 601,
+        "Perc95": 601,
+        "Perc99": 601
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 5.1176729920119906,
+        "Perc50": 3.4734904270986746,
+        "Perc90": 12.318367346938777,
+        "Perc95": 15.043537414965984,
+        "Perc99": 30.684081632653072
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 2021.9269895019986,
+        "Perc50": 1767.9558011049726,
+        "Perc90": 4192.463768115942,
+        "Perc95": 4656.231884057971,
+        "Perc99": 5027.246376811594
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/5000Nodes/namespace-2"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.9980128821767348,
+        "Perc50": 0.676029411764706,
+        "Perc90": 2.097272727272728,
+        "Perc95": 3.0077272727272724,
+        "Perc99": 7.369846153846168
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/5000Nodes/namespace-2",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.2109095075000036,
+        "Perc50": 0.7207698476343223,
+        "Perc90": 2.6601226993865033,
+        "Perc95": 3.150920245398773,
+        "Perc99": 6.4
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingWithMixedChurn/5000Nodes/namespace-2",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 34.13793103448276,
+        "Perc50": 38,
+        "Perc90": 50,
+        "Perc95": 51,
+        "Perc99": 52
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAntiAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 33.35732827699999,
+        "Perc50": 26.367666232073013,
+        "Perc90": 64.7032967032967,
+        "Perc95": 99.86813186813187,
+        "Perc99": 128
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAntiAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 12033.583440262,
+        "Perc50": 10775.63076923077,
+        "Perc90": 30293.333333333336,
+        "Perc95": 35626.666666666664,
+        "Perc99": 39893.33333333333
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAntiAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 12.993068233000006,
+        "Perc50": 9.860397830018083,
+        "Perc90": 24.856774193548386,
+        "Perc95": 40.17777777777778,
+        "Perc99": 80
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAntiAffinityWithNSSelector/5000Nodes/measure-ns-0",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.9777846876876863,
+        "Perc50": 0.6802158273381295,
+        "Perc90": 1.4932342007434947,
+        "Perc95": 2.577391304347823,
+        "Perc99": 9.415529411764703
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAntiAffinityWithNSSelector/5000Nodes/measure-ns-0",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 125,
+        "Perc50": 145,
+        "Perc90": 152,
+        "Perc95": 152,
+        "Perc99": 152
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAntiAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 10.27782948000002,
+        "Perc50": 7.558718861209965,
+        "Perc90": 17.365853658536587,
+        "Perc95": 27.121951219512194,
+        "Perc99": 53.81818181818182
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAntiAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 4004.6577870370015,
+        "Perc50": 4033.939393939394,
+        "Perc90": 8629.93710691824,
+        "Perc95": 9434.968553459119,
+        "Perc99": 10078.993710691824
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAntiAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 0.9083779490000004,
+        "Perc50": 0.6574002574002574,
+        "Perc90": 1.36878612716763,
+        "Perc95": 1.6,
+        "Perc99": 9.955555555555556
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAntiAffinityWithNSSelector/5000Nodes/measure-ns-0",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.1222008769999992,
+        "Perc50": 0.7072196620583717,
+        "Perc90": 1.516546762589928,
+        "Perc95": 2.8444444444444446,
+        "Perc99": 10.830769230769231
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAntiAffinityWithNSSelector/5000Nodes/measure-ns-0",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 55.55555555555556,
+        "Perc50": 43,
+        "Perc90": 104,
+        "Perc95": 119,
+        "Perc99": 119
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 22.62616971299998,
+        "Perc50": 15.707129094412332,
+        "Perc90": 53.286343612334804,
+        "Perc95": 60.33480176211454,
+        "Perc99": 113.77777777777779
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 6775.726362416999,
+        "Perc50": 5400.84388185654,
+        "Perc90": 16769.855072463768,
+        "Perc95": 18624.927536231884,
+        "Perc99": 20108.985507246376
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.288292331,
+        "Perc50": 0.860952380952381,
+        "Perc90": 2.69685534591195,
+        "Perc95": 3.2,
+        "Perc99": 8.685714285714287
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAffinityWithNSSelector/5000Nodes/measure-ns-0",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.6521477510000007,
+        "Perc50": 1.212847965738758,
+        "Perc90": 3.0652631578947367,
+        "Perc95": 5.075862068965518,
+        "Perc99": 11.276190476190477
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingRequiredPodAffinityWithNSSelector/5000Nodes/measure-ns-0",
+        "extension_point": "Score"
+      }
+    },
+    {
+      "data": {
+        "Average": 164.83333333333334,
+        "Perc50": 183,
+        "Perc90": 200,
+        "Perc95": 200,
+        "Perc99": 200
+      },
+      "unit": "pods/s",
+      "labels": {
+        "Metric": "SchedulingThroughput",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 9.404946867,
+        "Perc50": 7.252032520325203,
+        "Perc90": 15.378640776699031,
+        "Perc95": 24.15686274509804,
+        "Perc99": 52.869565217391305
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_scheduling_attempt_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 2705.750204309,
+        "Perc50": 2735.483870967742,
+        "Perc90": 4800.000000000001,
+        "Perc95": 5058.064516129033,
+        "Perc99": 8892.631578947368
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_pod_scheduling_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAffinityWithNSSelector/5000Nodes/measure-ns-0"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.1063355900000005,
+        "Perc50": 0.71201248049922,
+        "Perc90": 1.573134328358209,
+        "Perc95": 3.0909090909090913,
+        "Perc99": 10.4
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAffinityWithNSSelector/5000Nodes/measure-ns-0",
+        "extension_point": "Filter"
+      }
+    },
+    {
+      "data": {
+        "Average": 1.401238305,
+        "Perc50": 1.1901639344262296,
+        "Perc90": 2.197014925373135,
+        "Perc95": 4.025806451612903,
+        "Perc99": 10.752
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "scheduler_framework_extension_point_duration_seconds",
+        "Name": "BenchmarkPerfScheduling/SchedulingPreferredAffinityWithNSSelector/5000Nodes/measure-ns-0",
+        "extension_point": "Score"
+      }
+    }
+  ]
+}
